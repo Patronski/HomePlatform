@@ -7,4 +7,4 @@ This is windows forms app using:
 
 Purpose of app:
 - Practising learned material
-- Easy organizing home property for multiple addresses. Have users
+- Easy organizing home property for multiple addresses. Has users
