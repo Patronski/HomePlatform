@@ -45,16 +45,15 @@
         {
             var startInfo = new ProcessStartInfo();
             var path = Directory.GetCurrentDirectory();
-            path += "\\Resources\\Pacman";
-            startInfo.WorkingDirectory = @"C:\Users\DonchoP\Documents\Visual Studio 2015\Projects\EntityFramework\HomePlatform\HomePlatform.Resources\Pacman";// working directory
-            path += "\\setup.exe";
-            startInfo.FileName = @"C:\Users\DonchoP\Documents\Visual Studio 2015\Projects\EntityFramework\HomePlatform\HomePlatform.Resources\Pacman\setup.exe";
+            startInfo.WorkingDirectory = path + @"\Pacman_1_0_0_2\";// working directory
+            startInfo.FileName = @"Pacman.application";
             Process.Start(startInfo);
         }
 
         private void buttonGameSnake_Click(object sender, EventArgs e)
         {
-            Process.Start(@"C:\Users\DonchoP\Documents\Visual Studio 2015\Projects\EntityFramework\HomePlatform\HomePlatform.Resources\SnakeProjectFundamentals.jar");
+            var path = Directory.GetCurrentDirectory();
+            Process.Start(@"SnakeProjectFundamentals.jar");
         }
     }
 }
