@@ -9,102 +9,286 @@
     <Import_RootNamespace>HomePlatform.Resources</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\brick.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\brick.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Font.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Apple.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Apple.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\BackUp-Peach.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Banana.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Banana.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Brezel.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Brezel.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Cherry.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Cherry.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Peach.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Peach.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Pear.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Pear.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Strawberry.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\Strawberry.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\temp\Banana.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\FruitImages\temp\Banana.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\GhostKiller.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\GhostKiller.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\Exit.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\Exit.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\highscores.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\highscores.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\instructionbutton.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\instructionbutton.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\instructions.jpg.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\instructions.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\MainMenu.jpg.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\MainMenu.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\options.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\options.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\playEasy.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\playEasy.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\PlayGame.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\PlayGame.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\playHard.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\MenuImages\playHard.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\PacManLose.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\PacManLose.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\PacManSprite_sheets.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\PacManSprite_sheets.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\PacManWin_image.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\PacManWin_image.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Point.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Point.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Pokemons\pika.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Pokemons\pika.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Pokemons\pokeball.png.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Pokemons\pokeball.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\ScoresBackground.jpg.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\ScoresBackground.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Sound\pacbegin.wav.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Sound\pacbegin.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Sound\pacdead.wav.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Sound\pacdead.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Sound\paceat.wav.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Sound\paceat.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Sound\pacghost.wav.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Sound\pacghost.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Sound\pacman_chomp.wav.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Sound\pacman_chomp.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Sound\pacman_eatghost.wav.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Content\Sound\pacman_eatghost.xnb.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\DataFiles\Levels\CSharpLove.txt.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\DataFiles\Levels\Euro2016.txt.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\DataFiles\Levels\Labirint.txt.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\DataFiles\Levels\Labirint2.txt.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\EntityFramework.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\EntityFramework.SqlServer.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\MonoGame.Framework.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Pacman.application" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Pacman.Data.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Pacman.exe.config.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Pacman.exe.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Pacman.exe.manifest" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\PacMan.ico.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\Pacman.Models.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\SharpDX.Direct2D1.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\SharpDX.Direct3D11.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\SharpDX.Direct3D9.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\SharpDX.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\SharpDX.DXGI.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\SharpDX.MediaFoundation.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\SharpDX.RawInput.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\SharpDX.XAudio2.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Application Files\Pacman_1_0_0_2\SharpDX.XInput.dll.deploy" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\Pacman.application" />
-    <None Include="$(MSBuildThisFileDirectory)Pacman\setup.exe" />
-    <None Include="$(MSBuildThisFileDirectory)SnakeProjectFundamentals.jar" />
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\brick.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\brick.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Font.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Apple.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Apple.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\BackUp-Peach.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Banana.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Banana.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Brezel.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Brezel.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Cherry.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Cherry.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Peach.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Peach.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Pear.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Pear.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Strawberry.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\Strawberry.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\temp\Banana.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\FruitImages\temp\Banana.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\GhostKiller.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\GhostKiller.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\Exit.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\Exit.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\highscores.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\highscores.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\instructionbutton.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\instructionbutton.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\instructions.jpg.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\instructions.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\MainMenu.jpg.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\MainMenu.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\options.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\options.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\playEasy.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\playEasy.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\PlayGame.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\PlayGame.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\playHard.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\MenuImages\playHard.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\PacManLose.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\PacManLose.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\PacManSprite_sheets.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\PacManSprite_sheets.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\PacManWin_image.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\PacManWin_image.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Point.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Point.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Pokemons\pika.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Pokemons\pika.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Pokemons\pokeball.png.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Pokemons\pokeball.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\ScoresBackground.jpg.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\ScoresBackground.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Sound\pacbegin.wav.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Sound\pacbegin.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Sound\pacdead.wav.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Sound\pacdead.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Sound\paceat.wav.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Sound\paceat.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Sound\pacghost.wav.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Sound\pacghost.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Sound\pacman_chomp.wav.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Sound\pacman_chomp.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Sound\pacman_eatghost.wav.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Content\Sound\pacman_eatghost.xnb.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\DataFiles\Levels\CSharpLove.txt.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\DataFiles\Levels\Euro2016.txt.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\DataFiles\Levels\Labirint.txt.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\DataFiles\Levels\Labirint2.txt.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\EntityFramework.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\EntityFramework.SqlServer.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\MonoGame.Framework.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Pacman.application">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Pacman.Data.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Pacman.exe.config.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Pacman.exe.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Pacman.exe.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\PacMan.ico.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\Pacman.Models.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\SharpDX.Direct2D1.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\SharpDX.Direct3D11.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\SharpDX.Direct3D9.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\SharpDX.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\SharpDX.DXGI.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\SharpDX.MediaFoundation.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\SharpDX.RawInput.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\SharpDX.XAudio2.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Pacman_1_0_0_2\SharpDX.XInput.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)SnakeProjectFundamentals.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Pacman.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Snake.png" />
-    <Content Include="$(MSBuildThisFileDirectory)Visualpharm-Animals-Elephant.ico" />
+    <Content Include="$(MSBuildThisFileDirectory)Pacman.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Snake.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Visualpharm-Animals-Elephant.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 </Project>
