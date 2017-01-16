@@ -20,7 +20,7 @@
             this.context = new HomeContext();
             InitializeComponent();
 
-            string connectionString = "data source=.;initial catalog=HomeDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework";
+            string connectionString = "data source=.;initial catalog=HomePlatformDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework";
             this.sqlConnection = new SqlConnection(connectionString);
 
             this.items = new HashSet<Item>();

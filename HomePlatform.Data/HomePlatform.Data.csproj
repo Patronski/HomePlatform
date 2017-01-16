@@ -69,6 +69,7 @@
   <ItemGroup>
     <Compile Include="HomeContext.cs" />
     <Compile Include="LoggedUser.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

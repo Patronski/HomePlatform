@@ -12,13 +12,30 @@
         public Login()
         {
             InitializeComponent();
-            this.context = new HomeContext();
+            
         }
 
         private void buttonRegister_Click(object sender, EventArgs e)
         {
             var username = this.textBoxUsername.Text;
             var password = this.textBoxPassword.Text;
+
+            if (this.context == null)
+            {
+                this.buttonRegister.Text = "Please wait...";
+                this.buttonRegister.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+                this.timerPleaseWait.Start();
+                this.buttonRegister.Enabled = false;
+                this.buttonLogin.Enabled = false;
+                
+                this.context = new HomeContext();
+
+                this.buttonRegister.Text = "Register";
+                this.buttonRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+                this.timerPleaseWait.Stop();
+                //this.buttonRegister.Enabled = true;
+                this.buttonLogin.Enabled = true;
+            }
 
             var foundUser = context.Users.FirstOrDefault(l => l.Username == username);
 
@@ -54,6 +71,11 @@
             var username = this.textBoxUsername.Text;
             var password = this.textBoxPassword.Text;
 
+            if (this.context == null)
+            {
+                this.context = new HomeContext();
+            }
+
             var foundUser = context.Users.FirstOrDefault(l => l.Username == username && l.Password == password);
             if (foundUser != null || (username == "1" && password == "1"))
             {
@@ -72,7 +94,6 @@
             }
 
             this.buttonLogin.Text = "Login";
-            //this.buttonLogin.Font. = 12;
             this.buttonLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.timerPleaseWait.Stop();
         }
